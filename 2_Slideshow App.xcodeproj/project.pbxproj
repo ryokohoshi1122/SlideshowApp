@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D41B65A6282BBC360052D416 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B65A5282BBC360052D416 /* ResultViewController.swift */; };
 		D480B1602829C6F0006CD853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D480B15F2829C6F0006CD853 /* AppDelegate.swift */; };
 		D480B1622829C6F0006CD853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D480B1612829C6F0006CD853 /* SceneDelegate.swift */; };
 		D480B1642829C6F0006CD853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D480B1632829C6F0006CD853 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D41B65A5282BBC360052D416 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		D480B15C2829C6F0006CD853 /* 2_Slideshow App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2_Slideshow App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D480B15F2829C6F0006CD853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D480B1612829C6F0006CD853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		D480B15E2829C6F0006CD853 /* 2_Slideshow App */ = {
 			isa = PBXGroup;
 			children = (
+				D41B65A5282BBC360052D416 /* ResultViewController.swift */,
 				D480B15F2829C6F0006CD853 /* AppDelegate.swift */,
 				D480B1612829C6F0006CD853 /* SceneDelegate.swift */,
 				D480B1632829C6F0006CD853 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				D480B1642829C6F0006CD853 /* ViewController.swift in Sources */,
 				D480B1602829C6F0006CD853 /* AppDelegate.swift in Sources */,
 				D480B1622829C6F0006CD853 /* SceneDelegate.swift in Sources */,
+				D41B65A6282BBC360052D416 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

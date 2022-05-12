@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  2_Slideshow App
+//  SlideshowApp
 //
-//  Created by 星涼子 on 2022/05/10.
+//  Created by 星涼子 on 2022/04/15.
 //
 
 import UIKit

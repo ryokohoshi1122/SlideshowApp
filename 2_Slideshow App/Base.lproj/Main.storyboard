@@ -18,6 +18,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYt-NS-WSJ" userLabel="進む">
                                 <rect key="frame" x="20" y="394" width="53" height="31"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="戻る"/>
                                 <connections>
@@ -26,6 +27,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhM-ZS-Zmj" userLabel="戻る">
                                 <rect key="frame" x="341" y="394" width="53" height="31"/>
+                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="進む"/>
                                 <connections>
@@ -45,6 +47,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQX-4a-l92">
                                 <rect key="frame" x="180.5" y="394" width="53" height="31"/>
+                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="再生"/>
                                 <connections>
@@ -53,7 +56,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yhM-ZS-Zmj" secondAttribute="trailing" constant="20" id="2Xk-9u-mvE"/>
                             <constraint firstItem="gQX-4a-l92" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3AU-pE-Pcb"/>
@@ -95,6 +98,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Voq-ED-tn1">
                                 <rect key="frame" x="341" y="240" width="53" height="31"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="戻る"/>
                                 <connections>
@@ -106,7 +110,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="W9w-2p-k6t"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="3bU-VI-v0H" firstAttribute="leading" secondItem="W9w-2p-k6t" secondAttribute="leading" id="5MO-RV-JvF"/>
                             <constraint firstItem="W9w-2p-k6t" firstAttribute="trailing" secondItem="3bU-VI-v0H" secondAttribute="trailing" id="7KB-T2-3GG"/>
@@ -130,6 +134,9 @@
     </scenes>
     <resources>
         <image name="hyo" width="344" height="326"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
